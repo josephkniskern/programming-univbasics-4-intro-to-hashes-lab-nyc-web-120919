@@ -35,7 +35,7 @@ def update_counting_hash(hash, key)
     "hello" => 1 
   }
   
-  if hash[key] && hash[key] != "hello"
+  if hash[key] && key != "hello"
     hash[key] += 1
   else
     hash[key] = 1
